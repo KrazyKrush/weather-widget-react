@@ -1,18 +1,25 @@
-# React + Vite
+# Погодный Виджет
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React-приложение "Погодный виджет" с выбором города и отображением фиктивных данных о температуре.
 
-Currently, two official plugins are available:
+## Функциональность
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Выбор города из выпадающего списка
+- ✅ Отображение фиктивной температуры, влажности и скорости ветра
+- ✅ Сохранение выбранного города в localStorage
+- ✅ Адаптивный дизайн
+- ✅ Визуальная индикация температуры (цвет меняется в зависимости от значения)
 
-## React Compiler
+## Технологии
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React 18
+- CSS3 (Flexbox, Grid)
+- Local Storage API
+- Custom Hooks
 
-Note: This will impact Vite dev & build performances.
+## Установка и запуск
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Клонируйте репозиторий:
+```bash
+git clone <url-репозитория>
+cd weather-widget
