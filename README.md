@@ -56,7 +56,6 @@ npm (устанавливается автоматически с Node.js)
 
 ### Клонируйте репозиторий
 ```
-bash
 git clone https://github.com/krazykrush/weather-widget-react.git
 ```
 ```
